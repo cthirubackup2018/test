@@ -1,0 +1,28 @@
+[ {
+		  "Customer" : "ASOS",
+		  "Environment" : "PROD",
+		  "Metrics" : 
+		  [ 
+			{
+				"MetricName" : "POLICYSTATS",
+				"MetricType" : "TA_POLICY",
+				"PolicyURL" : "",
+				"SourceField" : "BP_EXEC_TIME_SEC",
+				"Number of Anamolies" : 10,
+				"Anamoly Score" : 88,
+				"Anamolies" : [{"BP_EXEC_TIME_SEC" : 1558.177,"Anamoly Score" : 88,"TimeStamp" : "2025-07-10T12:52:32.767Z" },{"BP_EXEC_TIME_SEC" : 1558.177, "Anamoly Score" : 88,"TimeStamp" : "2025-07-10T12:52:32.767Z" }],
+				"Images" : [{"/opt/image1.jpg" }]
+			},
+			{
+				"MetricName" : "WORKPROCESSING",
+				"MetricType" : "WORK_COMPLETED",
+				"WorkType" : "BPM-850",
+				"SourceField" : "BP_EXEC_TIME_SEC",
+				"Number of Anamolies" : 10,
+				"Anamoly Score" : 88,
+				"Anamolies" : [{"AVG_PROC" : 15352.302, "Anamoly Score" : 88,"TimeStamp" : "2025-07-10T12:52:32.767Z" },{"AVG_PROC" : 15352.302, "Anamoly Score" : 88,"TimeStamp" : "2025-07-10T12:52:32.767Z" }],
+				"Images" : [{"/opt/image1.jpg" }]
+			}
+		  ]
+		  } 
+		]
